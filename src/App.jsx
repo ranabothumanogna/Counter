@@ -1,15 +1,12 @@
-import Navbar from './Navbar';
-import Content from './Content';
-import Footer from './Footer';
+import Counter from './Counter';
 
-function MainPage() {
+function App() {
   return (
     <div>
-      <Navbar />
-      <Content />
-      <Footer />
+      <h2>Counter App</h2>
+      <Counter />
     </div>
   );
 }
 
-export default MainPage;
+export default App;
