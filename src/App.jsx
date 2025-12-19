@@ -1,10 +1,10 @@
-import Counter from './Counter';
+import React from 'react';
+import UserData from './UserData';
 
 function App() {
   return (
-    <div>
-      <h2>Counter App</h2>
-      <Counter />
+    <div className="App">
+      <UserData />
     </div>
   );
 }
